@@ -1,1 +1,0 @@
-{"version":3,"sources":["../../src/utils/swagger.js"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;AAAA;;AACA","sourcesContent":["import swaggerUI from \"swagger-ui-express\";\nimport swaggerDocument from \"../../swagger.json\";\n\nexport { swaggerUI, swaggerDocument };\n"],"file":"swagger.js"}
