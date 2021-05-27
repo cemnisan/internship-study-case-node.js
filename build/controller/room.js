@@ -83,4 +83,3 @@ const deleteRoom = async (req, res) => {
 };
 
 exports.deleteRoom = deleteRoom;
-//# sourceMappingURL=room.js.map

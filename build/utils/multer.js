@@ -27,4 +27,3 @@ const uploadImage = (0, _multer.default)({
 }).single('roomImage');
 var _default = uploadImage;
 exports.default = _default;
-//# sourceMappingURL=multer.js.map

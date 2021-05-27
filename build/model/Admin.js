@@ -30,4 +30,3 @@ const Admin = _mongoose.default.model('Admin', AdminSchema);
 
 var _default = Admin;
 exports.default = _default;
-//# sourceMappingURL=Admin.js.map

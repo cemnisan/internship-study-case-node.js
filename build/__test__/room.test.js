@@ -69,4 +69,3 @@ describe("/PUT room", () => {
     });
   });
 });
-//# sourceMappingURL=room.test.js.map

@@ -76,4 +76,3 @@ const signIn = (req, res) => {
 };
 
 exports.signIn = signIn;
-//# sourceMappingURL=admin.js.map

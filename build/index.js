@@ -38,4 +38,3 @@ app.listen(PORT, () => {
   console.log(`Listening to --> ${PORT}`);
 });
 module.exports = app;
-//# sourceMappingURL=index.js.map

@@ -43,4 +43,3 @@ describe("/POST token information", () => {
     });
   });
 });
-//# sourceMappingURL=admin.test.js.map

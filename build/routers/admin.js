@@ -27,4 +27,3 @@ router.put("/rooms/:id", _verifyToken.default, _room.updateReservation);
 router.delete('/rooms/:id', _verifyToken.default, _room.deleteRoom);
 var _default = router;
 exports.default = _default;
-//# sourceMappingURL=admin.js.map

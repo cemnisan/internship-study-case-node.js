@@ -19,4 +19,3 @@ module.exports = (req, res, next) => {
     });
   }
 };
-//# sourceMappingURL=verify-token.js.map

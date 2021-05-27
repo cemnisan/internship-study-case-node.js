@@ -69,4 +69,3 @@ const Room = _mongoose.default.model("Room", RoomSchema);
 
 var _default = Room;
 exports.default = _default;
-//# sourceMappingURL=Room.js.map

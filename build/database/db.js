@@ -19,4 +19,3 @@ module.exports = () => {
     console.log('MongoDB: Connection failed.');
   });
 };
-//# sourceMappingURL=db.js.map

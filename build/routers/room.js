@@ -20,4 +20,3 @@ router.post("/v1/rooms", _multer.default, _room.addRoom);
 router.put("/v1/rooms/:id", _room.updateReservation);
 var _default = router;
 exports.default = _default;
-//# sourceMappingURL=room.js.map

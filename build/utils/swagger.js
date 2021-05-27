@@ -21,4 +21,3 @@ var _swaggerUiExpress = _interopRequireDefault(require("swagger-ui-express"));
 var _swagger = _interopRequireDefault(require("../../swagger.json"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-//# sourceMappingURL=swagger.js.map
