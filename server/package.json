@@ -1,0 +1,39 @@
+{
+  "name": "hotel-projects",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run clean && npm run build-babel --copy-files",
+    "start": "npm run build && node ./build/index.js",
+    "clean": "rm -rf ./dist && mkdir dist",
+    "dev": "nodemon --exec babel-node src/index.js",
+    "build-babel": "babel -d ./build ./src -s",
+    "test": "mocha --timeout 10000 'src/__test__/**/*.js' --recursive --require @babel/register"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.14.3",
+    "@babel/core": "^7.14.3",
+    "@babel/node": "^7.14.2",
+    "@babel/preset-env": "^7.14.2",
+    "@babel/register": "^7.13.16",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "mongoose": "^5.12.10",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.7",
+    "swagger-ui-express": "^4.1.6"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "mocha": "^8.4.0"
+  }
+}
